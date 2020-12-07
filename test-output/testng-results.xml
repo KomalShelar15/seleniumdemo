@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="533" started-at="2020-11-03T05:18:29Z" finished-at="2020-11-03T05:18:29Z">
+    <groups>
+      <group name="leave">
+        <method signature="GroupTest.leaveModule1()[pri:0, instance:com.orangeHrmLive.GroupTest@25d250c6]" name="leaveModule1" class="com.orangeHrmLive.GroupTest"/>
+        <method signature="GroupTest.leaveModule2()[pri:0, instance:com.orangeHrmLive.GroupTest@25d250c6]" name="leaveModule2" class="com.orangeHrmLive.GroupTest"/>
+      </group> <!-- leave -->
+      <group name="admin">
+        <method signature="GroupTest.adminModule1()[pri:0, instance:com.orangeHrmLive.GroupTest@25d250c6]" name="adminModule1" class="com.orangeHrmLive.GroupTest"/>
+        <method signature="GroupTest.adminModule2()[pri:0, instance:com.orangeHrmLive.GroupTest@25d250c6]" name="adminModule2" class="com.orangeHrmLive.GroupTest"/>
+      </group> <!-- admin -->
+    </groups>
+    <test name="Default test" duration-ms="533" started-at="2020-11-03T05:18:29Z" finished-at="2020-11-03T05:18:29Z">
+      <class name="com.orangeHrmLive.GroupTest">
+        <test-method status="PASS" signature="beforeAdminGroup()[pri:0, instance:com.orangeHrmLive.GroupTest@25d250c6]" name="beforeAdminGroup" is-config="true" duration-ms="36" started-at="2020-11-03T05:18:29Z" finished-at="2020-11-03T05:18:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeAdminGroup -->
+        <test-method status="PASS" signature="adminModule1()[pri:0, instance:com.orangeHrmLive.GroupTest@25d250c6]" name="adminModule1" duration-ms="41" started-at="2020-11-03T05:18:29Z" finished-at="2020-11-03T05:18:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- adminModule1 -->
+        <test-method status="PASS" signature="adminModule2()[pri:0, instance:com.orangeHrmLive.GroupTest@25d250c6]" name="adminModule2" duration-ms="15" started-at="2020-11-03T05:18:29Z" finished-at="2020-11-03T05:18:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- adminModule2 -->
+        <test-method status="PASS" signature="afterAdminGroup()[pri:0, instance:com.orangeHrmLive.GroupTest@25d250c6]" name="afterAdminGroup" is-config="true" duration-ms="1" started-at="2020-11-03T05:18:29Z" finished-at="2020-11-03T05:18:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterAdminGroup -->
+        <test-method status="PASS" signature="beforeLeaveGroup()[pri:0, instance:com.orangeHrmLive.GroupTest@25d250c6]" name="beforeLeaveGroup" is-config="true" duration-ms="2" started-at="2020-11-03T05:18:29Z" finished-at="2020-11-03T05:18:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeLeaveGroup -->
+        <test-method status="PASS" signature="leaveModule1()[pri:0, instance:com.orangeHrmLive.GroupTest@25d250c6]" name="leaveModule1" duration-ms="30" started-at="2020-11-03T05:18:29Z" finished-at="2020-11-03T05:18:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- leaveModule1 -->
+        <test-method status="PASS" signature="leaveModule2()[pri:0, instance:com.orangeHrmLive.GroupTest@25d250c6]" name="leaveModule2" duration-ms="17" started-at="2020-11-03T05:18:29Z" finished-at="2020-11-03T05:18:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- leaveModule2 -->
+        <test-method status="PASS" signature="afterLeaveGroup()[pri:0, instance:com.orangeHrmLive.GroupTest@25d250c6]" name="afterLeaveGroup" is-config="true" duration-ms="27" started-at="2020-11-03T05:18:29Z" finished-at="2020-11-03T05:18:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterLeaveGroup -->
+      </class> <!-- com.orangeHrmLive.GroupTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
